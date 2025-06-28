@@ -12,7 +12,7 @@ module jk(clk,j,k,q,qbar);
  else if(j==1 && k==1)
   begin
    q <= ~q;
-   qbar <= ~q;
+   qbar <= ~qbar;
   end
  else if(j==0 && k==1)
   begin
